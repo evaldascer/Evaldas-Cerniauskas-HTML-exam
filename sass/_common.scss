@@ -20,6 +20,12 @@ h2 {
   line-height: 1.2;
   color: v.$dark1;
 }
+h3 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 500;
+}
 p {
   font-size: 20px;
   font-weight: 400;
@@ -54,4 +60,37 @@ p {
   margin-top: 38px;
   letter-spacing: 1.5px;
   line-height: 1.2;
+}
+.mobileBlocked {
+  display: none;
+}
+.mobileSizeLogo {
+  width: 138px;
+  overflow: hidden;
+}
+.webLink {
+  text-decoration: none;
+}
+// .gloop {
+//   display: inline-block;
+//   height: fit-content;
+//   &::after {
+//     content: "gloop series";
+//     text-transform: uppercase;
+//     color: v.$orange;
+//     font-size: 12px;
+//     line-height: 12px;
+//     font-weight: 500;
+//     margin: 0;
+//     padding: 0;
+//   }
+// }
+.gloo {
+  text-transform: uppercase;
+  color: v.$orange;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
 }

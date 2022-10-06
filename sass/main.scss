@@ -51,3 +51,112 @@
     }
   }
 }
+//    PRESS
+.press {
+  .container {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+  }
+}
+//    SHOWCASE
+.showcase {
+  .nftCardsContainer {
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    display: flex;
+    gap: 2.5rem;
+    overflow: hidden;
+  }
+  .nftCard {
+    background-color: rgba(238, 238, 238, 1);
+    width: 290px;
+    height: 400px;
+    border-radius: 16px;
+    &__image img {
+      display: block;
+    }
+    &__info {
+      height: 122px;
+      // display: grid;
+      // grid-template-columns: repeat(2, 1fr);
+      display: flex;
+      justify-content: space-between;
+      padding: 24px;
+    }
+  }
+  .nftCard__info__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    .nftNumber {
+      line-height: 100%;
+    }
+  }
+  .nftCard__info__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    .topBid {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 100%;
+      text-transform: uppercase;
+      color: v.$dark3;
+    }
+    .nftPrice {
+      text-transform: uppercase;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 500;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: "";
+        left: -21px;
+        width: 13px;
+        height: 22px;
+        background: url(../img/eth.svg);
+        display: block;
+      }
+    }
+    .daysLeft {
+      font-size: 18px;
+      color: v.$dark3;
+      line-height: 100%;
+    }
+  }
+}
+//    FOOTER UPSELL
+.footerUpsell {
+  overflow: hidden;
+  .container {
+    min-width: 651px;
+    padding-right: 0;
+    padding-bottom: 0;
+    display: flex;
+    gap: 14px;
+  }
+  &__text {
+    width: 207px;
+    margin-bottom: 66px;
+    h2 {
+      font-weight: 900;
+      font-size: 56px;
+      line-height: 1.21;
+      color: v.$dark1;
+      padding: 24px 0;
+    }
+  }
+  &__image {
+    z-index: -1;
+    width: 206px;
+    height: 467px;
+    align-self: flex-end;
+    overflow: hidden;
+  }
+}
