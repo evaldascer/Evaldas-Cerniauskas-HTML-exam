@@ -1,1 +1,33 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+h1 {
+  color: rgb(153, 153, 153);
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.header .container .logo {
+  height: 36px;
+}
+.header .container .burger i {
+  font-size: 28px;
+  color: rgb(153, 153, 153);
+}/*# sourceMappingURL=main.css.map */

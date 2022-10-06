@@ -1,0 +1,20 @@
+@use "common";
+@use "vars" as v;
+h1 {
+  color: v.$dark4;
+}
+//    HEADER
+.header {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .logo {
+      height: 36px;
+    }
+    .burger i {
+      font-size: 28px;
+      color: v.$dark4;
+    }
+  }
+}
