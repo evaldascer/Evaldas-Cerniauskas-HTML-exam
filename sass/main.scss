@@ -17,6 +17,7 @@
     }
   }
 }
+//    HERO
 .hero {
   .container {
     display: grid;
@@ -24,12 +25,29 @@
     gap: 19px;
     overflow: visible;
   }
-  &__graphic {
-    width: 176px;
-    height: 278px;
-    img {
-      width: 176px;
-      height: 278px;
+  // // &__graphic {
+  // //   width: 176px;
+  // //   height: 278px;
+  // //   img {
+  // //     width: 176px;
+  // //     height: 278px;
+  // //   }
+  // }
+}
+//    UPSELL
+.upsell {
+  .container {
+    color: v.$dark1;
+    padding-top: 4.1625rem;
+    padding-bottom: 1rem;
+    // height: 326px;
+    background: linear-gradient(to right, #ff7882, #d0c18e);
+    // background: url(../img/background.svg);
+    // background-size: cover;
+    // overflow: visible;
+    // background-position: center;
+    p {
+      padding-bottom: 1rem;
     }
   }
 }

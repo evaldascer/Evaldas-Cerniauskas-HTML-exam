@@ -29,14 +29,25 @@ p {
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
+  color: #111;
 }
 
 h1 {
   color: #111;
   font-weight: 900;
   font-size: 3rem;
-  line-height: 3.625rem;
+  line-height: 1.2;
   margin: 2rem 0;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 3.5rem;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #111;
 }
 
 p {
@@ -48,9 +59,8 @@ p {
 }
 
 .container {
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .btn {
@@ -104,11 +114,14 @@ p {
   gap: 19px;
   overflow: visible;
 }
-.hero__graphic {
-  width: 176px;
-  height: 278px;
+
+.upsell .container {
+  color: #111;
+  padding-top: 4.1625rem;
+  padding-bottom: 1rem;
+  background: -webkit-gradient(linear, left top, right top, from(#ff7882), to(#d0c18e));
+  background: linear-gradient(to right, #ff7882, #d0c18e);
 }
-.hero__graphic img {
-  width: 176px;
-  height: 278px;
+.upsell .container p {
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=main.css.map */
