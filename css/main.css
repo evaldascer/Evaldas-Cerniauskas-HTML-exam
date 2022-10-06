@@ -1,6 +1,50 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
+}
+
+h1 {
+  color: #111;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 3.625rem;
+  margin: 2rem 0;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(85, 85, 85);
+  line-height: 30px;
+  margin-bottom: 0;
 }
 
 .container {
@@ -9,8 +53,30 @@ body {
   margin-top: 2rem;
 }
 
-h1 {
-  color: rgb(153, 153, 153);
+.btn {
+  color: #111;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  padding: 16px 50.5px 17px;
+  margin-top: 2rem;
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#fff)) padding-box, -webkit-gradient(linear, left top, right top, from(#ff4b78), to(#cda459)) border-box;
+  background: linear-gradient(to right, #fff, #fff) padding-box, linear-gradient(to right, #ff4b78, #cda459) border-box;
+  border-radius: 50em;
+  border: 6px solid transparent;
+}
+
+.soon {
+  font-size: 1rem;
+  color: rgb(255, 57, 152);
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 38px;
+  letter-spacing: 1.5px;
+  line-height: 1.2;
 }
 
 .header .container {
@@ -30,4 +96,19 @@ h1 {
 .header .container .burger i {
   font-size: 28px;
   color: rgb(153, 153, 153);
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: 274px auto;
+  gap: 19px;
+  overflow: visible;
+}
+.hero__graphic {
+  width: 176px;
+  height: 278px;
+}
+.hero__graphic img {
+  width: 176px;
+  height: 278px;
 }/*# sourceMappingURL=main.css.map */

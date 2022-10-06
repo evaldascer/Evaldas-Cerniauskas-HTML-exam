@@ -1,8 +1,7 @@
-@use "common";
+@use "reset";
 @use "vars" as v;
-h1 {
-  color: v.$dark4;
-}
+@use "common";
+
 //    HEADER
 .header {
   .container {
@@ -15,6 +14,22 @@ h1 {
     .burger i {
       font-size: 28px;
       color: v.$dark4;
+    }
+  }
+}
+.hero {
+  .container {
+    display: grid;
+    grid-template-columns: 274px auto;
+    gap: 19px;
+    overflow: visible;
+  }
+  &__graphic {
+    width: 176px;
+    height: 278px;
+    img {
+      width: 176px;
+      height: 278px;
     }
   }
 }
