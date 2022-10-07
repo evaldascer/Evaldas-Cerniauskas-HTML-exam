@@ -4,10 +4,16 @@
 
 //    HEADER
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  background: #fff;
   .container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     .logo {
       height: 36px;
     }
@@ -15,35 +21,63 @@
       font-size: 28px;
       color: v.$dark4;
     }
+    .menu {
+      display: none;
+      font-size: 20px;
+      line-height: 1;
+      color: v.$dark2;
+      li {
+        padding-right: 28px;
+        &:last-child {
+          color: v.$pink;
+          padding-right: 0;
+        }
+      }
+    }
   }
 }
 //    HERO
 .hero {
+  margin-top: 110px;
+  // padding-top: 10px;
+  overflow: hidden;
+  background-color: #fff;
   .container {
+    padding-top: 0;
     min-width: 482px;
     overflow: hidden;
-    display: grid;
-    grid-template-columns: 274px auto;
-    gap: 19px;
-    overflow: visible;
+    position: relative;
   }
   &__text {
+    width: 57%;
     padding-top: 38px;
+    position: absolute;
+    z-index: 5;
   }
-  // // &__graphic {
-  // //   width: 176px;
-  // //   height: 278px;
-  // //   img {
-  // //     width: 176px;
-  // //     height: 278px;
-  // //   }
+  // img {
+  //   position: absolute;
+  //   z-index: 1;
+  //   height: 80%;
+  //   right: 0;
   // }
+  &__graphic {
+    min-width: 482px;
+    height: 448px;
+    position: relative;
+    img {
+      position: absolute;
+      right: -115px;
+      top: -52px;
+      height: 95%;
+    }
+  }
 }
 //    UPSELL
 .upsell {
+  margin-top: 48px;
   .container {
     color: v.$dark1;
-    padding-top: 4.1625rem;
+    padding-top: 4.25rem;
     padding-bottom: 1rem;
     // height: 326px;
     background: linear-gradient(to right, #ff7882, #f67d50, #d0c18e);

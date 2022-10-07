@@ -37,7 +37,7 @@ h1 {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.2;
-  margin: 2rem 0;
+  margin: 24px 0;
 }
 
 h2 {
@@ -126,12 +126,21 @@ section {
 .unlisted {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
 .horizontalLine {
   border-top: 2px solid rgb(238, 238, 238);
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  background: #fff;
+}
 .header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,9 +148,9 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header .container .logo {
   height: 36px;
@@ -150,22 +159,55 @@ section {
   font-size: 28px;
   color: rgb(153, 153, 153);
 }
+.header .container .menu {
+  display: none;
+  font-size: 20px;
+  line-height: 1;
+  color: rgb(85, 85, 85);
+}
+.header .container .menu li {
+  padding-right: 28px;
+}
+.header .container .menu li:last-child {
+  color: rgb(255, 57, 152);
+  padding-right: 0;
+}
 
+.hero {
+  margin-top: 110px;
+  overflow: hidden;
+  background-color: #fff;
+}
 .hero .container {
+  padding-top: 0;
   min-width: 482px;
   overflow: hidden;
-  display: grid;
-  grid-template-columns: 274px auto;
-  gap: 19px;
-  overflow: visible;
+  position: relative;
 }
 .hero__text {
+  width: 57%;
   padding-top: 38px;
+  position: absolute;
+  z-index: 5;
+}
+.hero__graphic {
+  min-width: 482px;
+  height: 448px;
+  position: relative;
+}
+.hero__graphic img {
+  position: absolute;
+  right: -115px;
+  top: -52px;
+  height: 95%;
 }
 
+.upsell {
+  margin-top: 48px;
+}
 .upsell .container {
   color: #111;
-  padding-top: 4.1625rem;
+  padding-top: 4.25rem;
   padding-bottom: 1rem;
   background: -webkit-gradient(linear, left top, right top, from(#ff7882), color-stop(#f67d50), to(#d0c18e));
   background: linear-gradient(to right, #ff7882, #f67d50, #d0c18e);
