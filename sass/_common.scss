@@ -70,6 +70,9 @@ section {
   width: 138px;
   overflow: hidden;
 }
+.mobileFooterBlocked {
+  display: none;
+}
 .webLink {
   text-decoration: none;
 }
@@ -97,7 +100,6 @@ section {
   padding: 0;
 }
 .unlisted {
-  // list-style: none;
   list-style: none;
   padding-left: 0;
   margin: 0;
