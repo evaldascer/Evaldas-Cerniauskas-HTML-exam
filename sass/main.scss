@@ -183,6 +183,7 @@
   overflow: hidden;
   .container {
     min-width: 651px;
+    padding-top: 4rem;
     padding-right: 0;
     padding-bottom: 0;
     display: flex;
@@ -258,6 +259,7 @@
     li:not(:first-child) {
       padding-bottom: 16px;
       font-size: 20px;
+      line-height: 1;
     }
     li:last-child {
       padding-bottom: 0;
@@ -273,3 +275,4 @@
     }
   }
 }
+@import "media";

@@ -331,6 +331,7 @@ section {
 }
 .footerUpsell .container {
   min-width: 651px;
+  padding-top: 4rem;
   padding-right: 0;
   padding-bottom: 0;
   display: -webkit-box;
@@ -410,6 +411,7 @@ section {
 .footer__grid li:not(:first-child) {
   padding-bottom: 16px;
   font-size: 20px;
+  line-height: 1;
 }
 .footer__grid li:last-child {
   padding-bottom: 0;
@@ -426,4 +428,21 @@ section {
 }
 .footer__bottom p {
   line-height: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .upsell .container {
+    height: 320px;
+    background: none;
+    background-image: url("../img/background.svg");
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobileBlocked {
+    display: block;
+  }
+  .mobileSizeLogo {
+    width: auto;
+  }
 }/*# sourceMappingURL=main.css.map */

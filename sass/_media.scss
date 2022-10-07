@@ -1,0 +1,21 @@
+//    TABLET
+@media screen and (min-width: 600px) {
+  .upsell {
+    .container {
+      height: 320px;
+      background: none;
+      background-image: url("../img/background.svg");
+      background-repeat: no-repeat;
+      // background-size: auto;
+    }
+  }
+}
+//    LAPTOP
+@media screen and (min-width: 1200px) {
+  .mobileBlocked {
+    display: block;
+  }
+  .mobileSizeLogo {
+    width: auto;
+  }
+}
