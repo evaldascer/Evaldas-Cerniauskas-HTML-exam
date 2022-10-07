@@ -77,23 +77,19 @@
   margin-top: 48px;
   .container {
     color: v.$dark1;
-    padding-top: 4.25rem;
-    padding-bottom: 1rem;
+    padding-top: 122px;
+    padding-bottom: 2rem;
     // height: 326px;
     background: linear-gradient(to right, #ff7882, #f67d50, #d0c18e);
     // background: url(../img/background.svg);
     // background-size: cover;
     // overflow: visible;
     // background-position: center;
-    p {
-      padding-bottom: 1rem;
-    }
   }
 }
 //    PRESS
 .press {
   .container {
-    padding-top: 4rem;
     display: flex;
     justify-content: space-between;
     row-gap: 1rem;
@@ -102,6 +98,7 @@
 }
 //    SHOWCASE
 .showcase {
+  margin-top: 24px;
   .container {
     padding-top: 0px;
     padding-bottom: 0;
@@ -110,8 +107,12 @@
     }
   }
   .nftCardsContainer {
+    max-width: 1280px;
     margin-top: 2.5rem;
-    margin-left: 2rem;
+    margin-bottom: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
     display: flex;
     gap: 2.5rem;
     overflow: hidden;
