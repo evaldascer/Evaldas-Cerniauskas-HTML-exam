@@ -6,16 +6,43 @@
       background: none;
       background-image: url("../img/background.svg");
       background-repeat: no-repeat;
-      // background-size: auto;
+      background-position: -10px 0px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
-//    LAPTOP
-@media screen and (min-width: 1200px) {
+//    LAPTOP 990px
+@media screen and (min-width: 990px) {
   .mobileBlocked {
     display: block;
   }
   .mobileSizeLogo {
     width: auto;
+  }
+}
+//    1270px
+@media screen and (min-width: 1280px) {
+  .upsell {
+    .container {
+      background-position: 0px 0px;
+    }
+  }
+  .showcase {
+    .nftCardsContainer {
+      padding-left: 0;
+    }
+  }
+}
+//    LAPTOP 1400px
+@media screen and (min-width: 1400px) {
+  .container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .upsell {
+    .container {
+      padding-left: 4rem;
+    }
   }
 }
