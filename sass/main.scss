@@ -41,7 +41,7 @@
     padding-top: 4.1625rem;
     padding-bottom: 1rem;
     // height: 326px;
-    background: linear-gradient(to right, #ff7882, #d0c18e);
+    background: linear-gradient(to right, #ff7882, #f67d50, #d0c18e);
     // background: url(../img/background.svg);
     // background-size: cover;
     // overflow: visible;
@@ -158,5 +158,16 @@
     height: 467px;
     align-self: flex-end;
     overflow: hidden;
+  }
+}
+//    FOOTER
+.footer {
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    color: v.$dark4;
+    p {
+      line-height: 1;
+    }
   }
 }

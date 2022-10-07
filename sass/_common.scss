@@ -34,6 +34,7 @@ p {
   margin-bottom: 0;
 }
 .container {
+  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -93,4 +94,9 @@ p {
   font-weight: 500;
   margin: 0;
   padding: 0;
+}
+.unlisted {
+  // list-style: none;
+  list-style: none;
+  padding-left: 0;
 }
