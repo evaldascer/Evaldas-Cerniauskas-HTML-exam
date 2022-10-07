@@ -20,10 +20,15 @@
 //    HERO
 .hero {
   .container {
+    min-width: 482px;
+    overflow: hidden;
     display: grid;
     grid-template-columns: 274px auto;
     gap: 19px;
     overflow: visible;
+  }
+  &__text {
+    padding-top: 38px;
   }
   // // &__graphic {
   // //   width: 176px;
@@ -63,6 +68,13 @@
 }
 //    SHOWCASE
 .showcase {
+  .container {
+    padding-top: 0px;
+    padding-bottom: 0;
+    h2 {
+      padding-top: 0;
+    }
+  }
   .nftCardsContainer {
     margin-top: 2.5rem;
     margin-left: 2rem;
@@ -162,7 +174,62 @@
 }
 //    FOOTER
 .footer {
+  .container {
+    padding-top: 64px;
+    padding-bottom: 105px;
+  }
+  &__header {
+    margin-bottom: 64px;
+    p {
+      line-height: 1;
+      margin-top: 30px;
+      margin-bottom: 32px;
+    }
+  }
+  &__socials {
+    display: inline-block;
+    text-align: left;
+    .fa {
+      font-size: 18px;
+      color: v.$dark4;
+    }
+    a {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      margin-right: 11.5px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: start;
+    row-gap: 40px;
+    margin-right: 36px;
+    ul {
+      color: v.$dark2;
+      margin: 0;
+    }
+    li:first-child {
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 1.21;
+      padding-bottom: 28px;
+    }
+    li:not(:first-child) {
+      padding-bottom: 16px;
+      font-size: 20px;
+    }
+    li:last-child {
+      padding-bottom: 0;
+    }
+  }
   &__bottom {
+    margin-top: 64px;
     display: flex;
     justify-content: space-between;
     color: v.$dark4;

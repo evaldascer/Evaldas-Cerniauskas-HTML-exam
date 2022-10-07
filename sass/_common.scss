@@ -33,6 +33,9 @@ p {
   line-height: 30px;
   margin-bottom: 0;
 }
+section {
+  margin-top: 2rem;
+}
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -58,7 +61,6 @@ p {
   font-weight: 700;
   display: inline-block;
   margin-bottom: 0;
-  margin-top: 38px;
   letter-spacing: 1.5px;
   line-height: 1.2;
 }
@@ -99,4 +101,7 @@ p {
   // list-style: none;
   list-style: none;
   padding-left: 0;
+}
+.horizontalLine {
+  border-top: 2px solid v.$light2;
 }
