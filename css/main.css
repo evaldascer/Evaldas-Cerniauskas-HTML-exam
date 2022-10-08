@@ -499,7 +499,7 @@ section {
   }
   .footerUpsell__text {
     width: auto;
-    max-width: 651px;
+    max-width: 569px;
     margin-bottom: 0;
     -ms-flex-item-align: center;
         align-self: center;
@@ -539,13 +539,13 @@ section {
     display: flex;
   }
   .hero {
-    margin-top: 125px;
+    margin-top: 177px;
   }
   .hero__graphic {
     height: 750px;
   }
   .upsell {
-    margin-top: 114px;
+    margin-top: 62px;
   }
   .upsell .container {
     padding-bottom: 64px;
