@@ -1,0 +1,111 @@
+@use "vars" as v;
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: v.$dark1;
+}
+h1 {
+  color: v.$dark1;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 24px 0;
+}
+h2 {
+  margin: 0;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: v.$dark1;
+}
+h3 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 500;
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: v.$dark2;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+section {
+  margin-top: 2rem;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.btn {
+  color: v.$dark1;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  padding: 16px 50.5px 17px;
+  margin-top: 2rem;
+  background: linear-gradient(to right, #fff, #fff) padding-box,
+    linear-gradient(to right, #ff4b78, #cda459) border-box;
+  border-radius: 50em;
+  border: 6px solid transparent;
+}
+.soon {
+  font-size: 1rem;
+  color: v.$pink;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 0;
+  letter-spacing: 1.5px;
+  line-height: 1.2;
+}
+.mobileBlocked {
+  display: none;
+}
+.mobileSizeLogo {
+  width: 138px;
+  overflow: hidden;
+}
+.mobileFooterBlocked {
+  display: none;
+}
+.webLink {
+  text-decoration: underline;
+}
+// .gloop {
+//   display: inline-block;
+//   height: fit-content;
+//   &::after {
+//     content: "gloop series";
+//     text-transform: uppercase;
+//     color: v.$orange;
+//     font-size: 12px;
+//     line-height: 12px;
+//     font-weight: 500;
+//     margin: 0;
+//     padding: 0;
+//   }
+// }
+.gloo {
+  text-transform: uppercase;
+  color: v.$orange;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.unlisted {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.horizontalLine {
+  border-top: 2px solid v.$light2;
+  width: 1280px;
+  margin: 0 auto;
+}
