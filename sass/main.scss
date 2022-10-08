@@ -73,12 +73,16 @@
 .upsell {
   margin-top: 48px;
   .container {
-    padding-bottom: 26px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 32px;
     color: v.$dark1;
-    padding-top: 122px;
+    // padding-top: 122px;
     // padding-bottom: 2rem;
     background-image: url("../img/background.svg");
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: -10px 0px;
     // background: linear-gradient(to right, #ff7882, #f67d50, #d0c18e);
@@ -271,8 +275,9 @@
     margin-top: 64px;
     display: flex;
     justify-content: space-between;
-    color: v.$dark4;
+
     p {
+      color: v.$dark4;
       line-height: 1;
     }
   }

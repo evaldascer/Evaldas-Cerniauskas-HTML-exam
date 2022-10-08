@@ -113,7 +113,7 @@ section {
 }
 
 .webLink {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .gloo {
@@ -214,11 +214,21 @@ section {
   margin-top: 48px;
 }
 .upsell .container {
-  padding-bottom: 26px;
+  height: 326px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 32px;
   color: rgb(17, 17, 17);
-  padding-top: 122px;
   background-image: url("../img/background.svg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: -10px 0px;
 }
@@ -438,9 +448,9 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: rgb(153, 153, 153);
 }
 .footer__bottom p {
+  color: rgb(153, 153, 153);
   line-height: 1;
 }
 
@@ -537,6 +547,9 @@ section {
   .upsell {
     margin-top: 114px;
   }
+  .upsell .container {
+    padding-bottom: 64px;
+  }
   .press {
     margin-top: 87px;
     margin-bottom: 87px;
@@ -554,6 +567,10 @@ section {
   }
   .footer__grid {
     grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    justify-items: end;
+    padding-right: 30px;
+    margin-right: 0px;
   }
   .footer__bottom {
     margin-top: 56px;

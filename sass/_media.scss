@@ -101,6 +101,9 @@
   }
   .upsell {
     margin-top: 114px;
+    .container {
+      padding-bottom: 64px;
+    }
   }
   .press {
     margin-top: 87px;
@@ -122,6 +125,10 @@
     }
     &__grid {
       grid-template-columns: repeat(4, 1fr);
+      gap: 80px;
+      justify-items: end;
+      padding-right: 30px;
+      margin-right: 0px;
     }
     &__bottom {
       margin-top: 56px;
