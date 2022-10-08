@@ -81,6 +81,8 @@
   }
   .header {
     .container {
+      padding-top: 70px;
+      padding-bottom: 24px;
       .burger {
         display: none;
       }
@@ -89,10 +91,40 @@
       }
     }
   }
-
+  .hero {
+    margin-top: 125px;
+    .container {
+    }
+    &__graphic {
+      height: 750px;
+    }
+  }
+  .upsell {
+    margin-top: 114px;
+  }
+  .press {
+    margin-top: 87px;
+    margin-bottom: 87px;
+  }
+  .showcase {
+    h2 {
+      padding-bottom: 24px;
+    }
+    .nftCardsContainer {
+      margin-top: 56px;
+      margin-bottom: 120px;
+    }
+  }
   .footer {
+    .container {
+      padding-top: 120px;
+      padding-bottom: 71px;
+    }
     &__grid {
       grid-template-columns: repeat(4, 1fr);
+    }
+    &__bottom {
+      margin-top: 56px;
     }
   }
 }

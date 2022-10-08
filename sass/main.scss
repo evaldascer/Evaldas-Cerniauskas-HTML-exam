@@ -73,10 +73,12 @@
 .upsell {
   margin-top: 48px;
   .container {
+    padding-bottom: 26px;
     color: v.$dark1;
     padding-top: 122px;
-    padding-bottom: 2rem;
+    // padding-bottom: 2rem;
     background-image: url("../img/background.svg");
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: -10px 0px;
     // background: linear-gradient(to right, #ff7882, #f67d50, #d0c18e);
@@ -213,6 +215,9 @@
   }
   &__header {
     margin-bottom: 64px;
+    img {
+      display: block;
+    }
     p {
       line-height: 1;
       margin-top: 30px;

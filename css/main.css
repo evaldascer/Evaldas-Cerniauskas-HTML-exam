@@ -214,10 +214,11 @@ section {
   margin-top: 48px;
 }
 .upsell .container {
+  padding-bottom: 26px;
   color: rgb(17, 17, 17);
   padding-top: 122px;
-  padding-bottom: 2rem;
   background-image: url("../img/background.svg");
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: -10px 0px;
 }
@@ -376,6 +377,9 @@ section {
 .footer__header {
   margin-bottom: 64px;
 }
+.footer__header img {
+  display: block;
+}
 .footer__header p {
   line-height: 1;
   margin-top: 30px;
@@ -512,6 +516,10 @@ section {
   .mobileSizeLogo {
     width: auto;
   }
+  .header .container {
+    padding-top: 70px;
+    padding-bottom: 24px;
+  }
   .header .container .burger {
     display: none;
   }
@@ -520,8 +528,35 @@ section {
     display: -ms-flexbox;
     display: flex;
   }
+  .hero {
+    margin-top: 125px;
+  }
+  .hero__graphic {
+    height: 750px;
+  }
+  .upsell {
+    margin-top: 114px;
+  }
+  .press {
+    margin-top: 87px;
+    margin-bottom: 87px;
+  }
+  .showcase h2 {
+    padding-bottom: 24px;
+  }
+  .showcase .nftCardsContainer {
+    margin-top: 56px;
+    margin-bottom: 120px;
+  }
+  .footer .container {
+    padding-top: 120px;
+    padding-bottom: 71px;
+  }
   .footer__grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .footer__bottom {
+    margin-top: 56px;
   }
 }
 @media screen and (min-width: 1280px) {
